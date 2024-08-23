@@ -94,6 +94,7 @@ p {
   }
 
   @media (width >= 1400px) {
+    
     #root {
       gap: 200px;
     }
