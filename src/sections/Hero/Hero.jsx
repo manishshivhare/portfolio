@@ -9,6 +9,7 @@ import linkedinDark from '../../assets/linkedin-dark.svg';
 import CV from '../../assets/cv.pdf';
 import { useTheme } from '../../common/ThemeContext';
 
+
 function Hero() {
   const { theme, toggleTheme } = useTheme();
 
@@ -45,6 +46,7 @@ function Hero() {
           <a href="https://linkedin.com/in/manish-shivhare" target="_blank">
             <img src={linkedinIcon} alt="Linkedin icon" />
           </a>
+          
         </span>
         <p className={styles.description}>
           With a passion for developing modern React web apps for commercial

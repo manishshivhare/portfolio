@@ -13,6 +13,12 @@ function Projects() {
           h3="Order Analyzer"
           p="Flipkart orders analyzer"
         />
+        <ProjectCard
+          src='https://manish-shivhare.netlify.app/assets/manish-image-BMnFPNJG.png'
+          link="https://blog-manish-shivhare.onrender.com/"
+          h3="Blog site"
+          p="Personal blog site using MERN"
+        />
         
       </div>
     </section>
