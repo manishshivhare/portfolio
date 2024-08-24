@@ -55,6 +55,9 @@ function Hero() {
         <a href={CV} download>
           <button className="hover">Resume</button>
         </a>
+        <a href="https://blog-manish-shivhare.onrender.com/" download>
+          <button className="hover">Blog</button>
+        </a>
       </div>
     </section>
   );
