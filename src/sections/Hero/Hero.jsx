@@ -1,21 +1,21 @@
-import styles from './HeroStyles.module.css';
-import heroImg from '../../assets/manish-image.png'
-import sun from '../../assets/sun.svg';
-import moon from '../../assets/moon.svg';
-import githubLight from '../../assets/github-light.svg';
-import githubDark from '../../assets/github-dark.svg';
-import linkedinLight from '../../assets/linkedin-light.svg';
-import linkedinDark from '../../assets/linkedin-dark.svg';
-import CV from '../../assets/cv.pdf';
-import { useTheme } from '../../common/ThemeContext';
-
+import styles from "./HeroStyles.module.css";
+import heroImg from "../../assets/manish-image.png";
+import sun from "../../assets/sun.svg";
+import moon from "../../assets/moon.svg";
+import githubLight from "../../assets/github-light.svg";
+import githubDark from "../../assets/github-dark.svg";
+import linkedinLight from "../../assets/linkedin-light.svg";
+import linkedinDark from "../../assets/linkedin-dark.svg";
+import leetcodeDark from "../../assets/leetcode-dark.png";
+import CV from "../../assets/cv.pdf";
+import { useTheme } from "../../common/ThemeContext";
 
 function Hero() {
   const { theme, toggleTheme } = useTheme();
 
-  const themeIcon = theme === 'light' ? sun : moon;
-  const githubIcon = theme === 'light' ? githubLight : githubDark;
-  const linkedinIcon = theme === 'light' ? linkedinLight : linkedinDark;
+  const themeIcon = theme === "light" ? sun : moon;
+  const githubIcon = theme === "light" ? githubLight : githubDark;
+  const linkedinIcon = theme === "light" ? linkedinLight : linkedinDark;
 
   return (
     <section id="hero" className={styles.container}>
@@ -46,18 +46,20 @@ function Hero() {
           <a href="https://linkedin.com/in/manish-shivhare" target="_blank">
             <img src={linkedinIcon} alt="Linkedin icon" />
           </a>
-          
         </span>
         <p className={styles.description}>
           With a passion for developing modern React web apps for commercial
           businesses.
         </p>
-        <a href={CV} download>
-          <button className="hover">Resume</button>
-        </a>
-        <a href="https://blog-manish-shivhare.onrender.com/" target="_blank">
-          <button className="hover">Blog</button>
-        </a>
+        <div className="resume-blog-buttons">
+          <a href={CV} download>
+            <button className="hover">Resume</button>
+          </a>
+
+          <a href="https://blog-manish-shivhare.onrender.com/" target="_blank">
+            <button className="hover">Blog</button>
+          </a>
+        </div>
       </div>
     </section>
   );
