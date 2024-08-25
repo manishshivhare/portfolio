@@ -6,8 +6,6 @@ import githubLight from "../../assets/github-light.svg";
 import githubDark from "../../assets/github-dark.svg";
 import linkedinLight from "../../assets/linkedin-light.svg";
 import linkedinDark from "../../assets/linkedin-dark.svg";
-import leetcodeDark from "../../assets/leetcode-dark.png";
-import CV from "../../assets/cv.pdf";
 import { useTheme } from "../../common/ThemeContext";
 
 function Hero() {
@@ -52,7 +50,7 @@ function Hero() {
           businesses.
         </p>
         <div className="resume-blog-buttons">
-          <a href={CV} download>
+          <a href="https://drive.google.com/file/d/1TFEOtMN49Z0uGX_oiPQRoL2Qt8CphDyI/view?usp=sharing" target="_blank">
             <button className="hover">Resume</button>
           </a>
 
