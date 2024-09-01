@@ -1,5 +1,6 @@
 import styles from './ProjectsStyles.module.css';
 import foa from '../../assets/flipkart-order-analyzer.png';
+import game2048 from '../../assets/2048.png';
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -20,7 +21,7 @@ function Projects() {
           p="Personal blog site using MERN"
         />
         <ProjectCard
-          src='https://w7.pngwing.com/pngs/954/902/png-transparent-2048-art-area-text-symbol-number-apps-2048-game-text-logo-thumbnail.png'
+          src={game2048}
           link="https://manish-shivhare-2048.netlify.app/"
           h3="2048-Game"
           p="Famous 2048 Game Clone"
