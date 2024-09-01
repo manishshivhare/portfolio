@@ -49,8 +49,11 @@ function Hero() {
           With a passion for developing modern React web apps for commercial
           businesses.
         </p>
-        <div className="resume-blog-buttons">
-          <a href="https://drive.google.com/file/d/1qYCsOGq4y4CKKabR8nLRbfk2_-RA3vHG/view?usp=drive_link" target="_blank" >
+        <div className={styles.resumeBlogButtons}>
+          <a
+            href="https://drive.google.com/file/d/1qYCsOGq4y4CKKabR8nLRbfk2_-RA3vHG/view?usp=drive_link"
+            target="_blank"
+          >
             <button className="hover">Resume</button>
           </a>
 
