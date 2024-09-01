@@ -19,6 +19,12 @@ function Projects() {
           h3="Blog site"
           p="Personal blog site using MERN"
         />
+        <ProjectCard
+          src='https://w7.pngwing.com/pngs/954/902/png-transparent-2048-art-area-text-symbol-number-apps-2048-game-text-logo-thumbnail.png'
+          link="https://manish-shivhare-2048.netlify.app/"
+          h3="2048-Game"
+          p="Famous 2048 Game Clone"
+        />
         
       </div>
     </section>
