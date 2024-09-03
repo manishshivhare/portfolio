@@ -71,16 +71,18 @@
 }
 
 .description {
-  max-width: 24ch;
+  max-width: 27ch;
 }
 
 .info {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  align-self: center;
 }
 
 .resumeBlogButtons {
+  margin: auto;
   display: flex;
   gap: 7px;
 
