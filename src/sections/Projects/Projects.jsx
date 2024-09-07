@@ -3,6 +3,7 @@ import foa from '../../assets/flipkart-order-analyzer.png';
 import game2048 from '../../assets/2048.png';
 import blogImage from '../../assets/manish-image.png';
 import ProjectCard from '../../common/ProjectCard';
+import reminder from '../../assets/reminder.png';
 
 const projects = [
   {
@@ -22,6 +23,12 @@ const projects = [
     link: 'https://manish-shivhare-2048.netlify.app/',
     h3: '2048-Game',
     p: 'Famous 2048 Game Clone',
+  },
+  {
+    src: reminder,
+    link: 'https://manish-shivhare-reminder.netlify.app/',
+    h3: 'Reminder',
+    p: 'Reminder web application',
   },
 ];
 
