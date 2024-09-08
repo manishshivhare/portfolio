@@ -51,7 +51,7 @@ function Hero() {
         </p>
         <div className={styles.resumeBlogButtons}>
           <a
-            href="https://drive.google.com/file/d/1LEHLwEc4ppEhdhYeuJGqCL_XCDDfJlFS/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1MXa2RIvdgjZx0ve8IOMxdCt6I9Ooe-1C/view?usp=sharing"
             target="_blank"
           >
             <button className="hover">Resume</button>
